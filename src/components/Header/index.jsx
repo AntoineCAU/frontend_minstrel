@@ -1,18 +1,20 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import SHeader from './styles';
 
 function Header() {
   return (
     <SHeader>
       <div className="header">
-        <img
-          src="../img/minstrel_logo.png"
-          alt="minstrel_logo"
-          className="logo"
-        />
+        <Link to="/">
+          <img
+            src="../img/minstrel_logo.png"
+            alt="minstrel_logo"
+            className="logo"
+          />
+        </Link>
         <ul className="pages">
           <li>
-            <NavLink to="/Home" className="home">
+            <NavLink to="/" className="home">
               Home
             </NavLink>
           </li>
