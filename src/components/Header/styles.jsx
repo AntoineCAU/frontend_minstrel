@@ -3,15 +3,16 @@ import styled from 'styled-components';
 const SHeader = styled.div`
   .header {
     width: 100vw;
-    height: 80px;
     position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #85b8b7;
+    background-color: #e2eeea;
     border-bottom: #036770 solid 1px;
     .logo {
       height: 75px;
+      padding: 20px;
     }
     .pages {
       display: flex;
@@ -20,16 +21,14 @@ const SHeader = styled.div`
       li {
         padding: 30px;
         a {
-          border-radius: 3px;
-          padding: 10px;
-          color: #ffff;
+          padding-left: 10px;
+          color: #036770;
           text-decoration: none;
           font-size: 20px;
-          font-family: 'roboto', sans-serif;
+          font-family: 'Fjalla One', serif;
+          border-left: transparent solid 3px;
           :hover {
-            transition: 0.5s;
-            color: #85b8b7;
-            background-color: #ffff;
+            border-left: #036770 solid 3px;
           }
         }
       }
