@@ -11,7 +11,7 @@ const SHeader = styled.div`
     background-color: #e2eeea;
     border-bottom: #036770 solid 1px;
     .logo {
-      height: 75px;
+      height: 50px;
       padding: 20px;
     }
     .pages {
@@ -24,11 +24,11 @@ const SHeader = styled.div`
           padding-left: 10px;
           color: #036770;
           text-decoration: none;
-          font-size: 20px;
+          font-size: 17px;
           font-family: 'Fjalla One', serif;
-          border-left: transparent solid 3px;
+          border-left: transparent solid 4px;
           :hover {
-            border-left: #036770 solid 3px;
+            border-left: #036770 solid 4px;
           }
         }
       }
